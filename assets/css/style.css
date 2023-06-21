@@ -38,7 +38,7 @@ body > header > nav {
   list-style-type: none;
 }
 
-header ul li {
+header > nav > ul > li {
   display: inline-block;
   margin-left: 25px;
 }
@@ -63,6 +63,28 @@ body > main {
   margin-left: 20px;
 }
 
+.company-services h2 {
+  /*consolidated 3 separte declarations into a single block using classes*/
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.company-services {
+  /*Consolidated into a single class declaration to apply to all services*/
+  /*changed the selector to match ID label*/
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+section.company-services > img {
+  /* consolidated  declaration to a single tag instead of 3 */
+  max-height: 200px;
+}
+
 .float-left {
   float: left;
   margin-right: 25px;
@@ -72,13 +94,6 @@ body > main {
   float: right;
   margin-left: 25px;
 }
-
-.company-services h2 {
-  /*consolidated 3 separte declarations into a single block using classes*/
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
 aside {
   /*replaced the selector for element */
   margin-right: 20px;
@@ -110,22 +125,6 @@ aside {
   max-width: 150px;
 }
 
-.company-services {
-  /*Consolidated into a single class declaration to apply to all services*/
-  /*changed the selector to match ID label*/
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-section.company-services > img {
-  /* consolidated  declaration to a single tag instead of 3 */
-  max-height: 200px;
-}
-
 footer {
   /* Fixed the selector for the footer tag*/
   padding: 30px;
@@ -135,7 +134,7 @@ footer {
   text-align: center;
 }
 
-footer > h2 {
+footer > h4 {
   /*Fixed the selector*/
   font-size: 20px;
 }
