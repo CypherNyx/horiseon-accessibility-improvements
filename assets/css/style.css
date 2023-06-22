@@ -4,14 +4,14 @@
   margin: 0;
 }
 
+/*merged body and p declarations into 1 block*/
 body {
-  /*merged body and p declarations into 1 block*/
   background-color: #d9dcd6;
   font-size: 16px;
 }
 
-body > header {
-  /* adds blue color to header */
+header {
+  /* Changed selector. Reordered declarations. This adds blue color to header */
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -19,17 +19,17 @@ body > header {
   color: #ffffff;
 }
 
-body > header > h1 {
+header h1 {
   display: inline-block;
   font-size: 48px;
 }
 
-body > header > h1 .seo {
+header h1 .seo {
   color: #d9dcd6;
 }
 
-body > header > nav {
-  /* Floated Nav bar to the right. removed li bullets*/
+header nav {
+  /* Changed selector. Floated Nav bar to the right. removed li bullets*/
   padding-top: 15px;
   margin-right: 20px;
   float: right;
@@ -38,7 +38,7 @@ body > header > nav {
   list-style-type: none;
 }
 
-header > nav > ul > li {
+header nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
@@ -48,7 +48,7 @@ a {
   text-decoration: none;
 }
 
-body > figure > img {
+figure img {
   /*Resizes and positions the HERO banner under nav*/
   height: 800px;
   width: 100%;
@@ -57,16 +57,10 @@ body > figure > img {
   background-position: center;
 }
 
-body > main {
+main {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
-}
-
-.company-services h2 {
-  /*consolidated 3 separte declarations into a single block using classes*/
-  margin-bottom: 20px;
-  font-size: 36px;
 }
 
 .company-services {
@@ -80,9 +74,16 @@ body > main {
   color: #ffffff;
 }
 
-section.company-services > img {
+section.company-services img {
   /* consolidated  declaration to a single tag instead of 3 */
   max-height: 200px;
+}
+
+/* Reordered declaration block to match html */
+.company-services h2 {
+  /*consolidated 3 separte declarations into a single block using classes*/
+  margin-bottom: 20px;
+  font-size: 36px;
 }
 
 .float-left {
@@ -112,13 +113,13 @@ aside {
   color: #ffffff;
 }
 
-.benefits > h3 {
+.benefits h3 {
   /*consolidated 3 separte declarations into a single block using classes*/
   margin-bottom: 10px;
   text-align: center;
 }
 
-.benefits > img {
+.benefits img {
   /*consolidated 3 separte declarations into a single block using classes*/
   display: block;
   margin: 10px auto;
@@ -134,7 +135,7 @@ footer {
   text-align: center;
 }
 
-footer > h4 {
+footer h4 {
   /*Fixed the selector*/
   font-size: 20px;
 }
