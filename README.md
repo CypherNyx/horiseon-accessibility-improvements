@@ -1,5 +1,7 @@
 # HTML CSS Git Challenge: Code Refactor
 
+[&#10159; Project website] (https://cyphernyx.github.io/horiseon-accessibility-improvements/)
+
 ## User Story
 
 AS A marketing agency
@@ -29,3 +31,5 @@ GIVEN a webpage meets accessibility standards:
 - Reorganized heading tags to follow hierarchy
 - Replaced title tag to be more SEO friendly
 - Condensed style.css: 21 CSS declaration blocks total &nbsp;down from 35 original declaration blocks
+
+![Deploymet screenshot](./assets/images/screencapture-cyphernyx-github-io-horiseon.png)

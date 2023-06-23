@@ -4,10 +4,12 @@
   margin: 0;
 }
 
+/*merged body and p declarations into 1 block*/
 body {
   background-color: #d9dcd6;
   font-size: 16px;
 }
+
 
 /* Header section*/
 header {
@@ -26,6 +28,7 @@ header h1 {
 header h1 .seo {
   color: #d9dcd6;
 }
+
 
 /* This block floats Nav bar to the right*/
 header nav {
@@ -47,6 +50,7 @@ a {
   text-decoration: none;
 }
 
+
 /*This block resizes and positions the HERO banner under nav*/
 figure {
   height: 800px;
@@ -57,8 +61,10 @@ figure {
   background-position: center;
 }
 
+
 /* services "Main" section */
 /* Used a single new class for all sections inside main*/
+
 main {
   width: 75%;
   display: inline-block;
@@ -80,6 +86,7 @@ section.company-services img {
 
 /* Reordered declaration block to match html */
 .company-services h2 {
+
   margin-bottom: 20px;
   font-size: 36px;
 }
@@ -131,6 +138,7 @@ footer {
     "Lucida Sans", Arial, sans-serif;
   text-align: center;
 }
+
 
 /*Fixed the heading selector*/
 footer h4 {
