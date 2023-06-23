@@ -9,7 +9,6 @@ body {
   font-size: 16px;
 }
 
-
 /* Header section*/
 header {
   padding: 20px;
@@ -27,7 +26,6 @@ header h1 {
 header h1 .seo {
   color: #d9dcd6;
 }
-
 
 /* This block floats Nav bar to the right*/
 header nav {
@@ -49,7 +47,6 @@ a {
   text-decoration: none;
 }
 
-
 /*This block resizes and positions the HERO banner under nav*/
 figure {
   height: 800px;
@@ -59,7 +56,6 @@ figure {
   background-size: cover;
   background-position: center;
 }
-
 
 /* services "Main" section */
 /* Used a single new class for all sections inside main*/
@@ -136,7 +132,6 @@ footer {
     "Lucida Sans", Arial, sans-serif;
   text-align: center;
 }
-
 
 /*Fixed the heading selector*/
 footer h4 {

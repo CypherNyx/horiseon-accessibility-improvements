@@ -1,14 +1,13 @@
 # HTML CSS Git Challenge: Code Refactor
 
-[&#10159; Project website] (https://cyphernyx.github.io/horiseon-accessibility-improvements/)
+[&#10159; Project website](https://cyphernyx.github.io/horiseon-accessibility-improvements/)
 
-## User Story
+## Usage
 
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
+A marketing agency WANTS a codebase that follows accessibility standards
 SO THAT our own site is optimized for search engines
 
-## Acceptance Criteria
+## Functionality Criteria
 
 GIVEN a webpage meets accessibility standards:
 
