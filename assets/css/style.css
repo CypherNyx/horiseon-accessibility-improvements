@@ -10,8 +10,9 @@ body {
   font-size: 16px;
 }
 
+
+/* Header section*/
 header {
-  /* Changed selector. Reordered declarations. This adds blue color to header */
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -28,8 +29,9 @@ header h1 .seo {
   color: #d9dcd6;
 }
 
+
+/* This block floats Nav bar to the right*/
 header nav {
-  /* Changed selector. Floated Nav bar to the right. removed li bullets*/
   padding-top: 15px;
   margin-right: 20px;
   float: right;
@@ -48,14 +50,20 @@ a {
   text-decoration: none;
 }
 
-figure img {
-  /*Resizes and positions the HERO banner under nav*/
+
+/*This block resizes and positions the HERO banner under nav*/
+figure {
   height: 800px;
   width: 100%;
   margin-bottom: 25px;
+  background-image: url("../images/digital-marketing-meeting.jpg");
   background-size: cover;
   background-position: center;
 }
+
+
+/* services "Main" section */
+/* Used a single new class for all sections inside main*/
 
 main {
   width: 75%;
@@ -64,8 +72,6 @@ main {
 }
 
 .company-services {
-  /*Consolidated into a single class declaration to apply to all services*/
-  /*changed the selector to match ID label*/
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -75,13 +81,12 @@ main {
 }
 
 section.company-services img {
-  /* consolidated  declaration to a single tag instead of 3 */
   max-height: 200px;
 }
 
 /* Reordered declaration block to match html */
 .company-services h2 {
-  /*consolidated 3 separte declarations into a single block using classes*/
+
   margin-bottom: 20px;
   font-size: 36px;
 }
@@ -95,8 +100,10 @@ section.company-services img {
   float: right;
   margin-left: 25px;
 }
+
+/*Sidebar*/
+/*Used a single new class for all sections inside aside */
 aside {
-  /*replaced the selector for element */
   margin-right: 20px;
   padding: 20px;
   clear: both;
@@ -108,26 +115,23 @@ aside {
 }
 
 .benefits {
-  /*consolidated 3 separte declarations into a single block using classes*/
   margin-bottom: 32px;
   color: #ffffff;
 }
 
 .benefits h3 {
-  /*consolidated 3 separte declarations into a single block using classes*/
   margin-bottom: 10px;
   text-align: center;
 }
 
 .benefits img {
-  /*consolidated 3 separte declarations into a single block using classes*/
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
+/* Fixed the selector for the footer element*/
 footer {
-  /* Fixed the selector for the footer tag*/
   padding: 30px;
   clear: both;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -135,7 +139,8 @@ footer {
   text-align: center;
 }
 
+
+/*Fixed the heading selector*/
 footer h4 {
-  /*Fixed the selector*/
   font-size: 20px;
 }
