@@ -57,7 +57,7 @@ figure {
   background-position: center;
 }
 
-/* services "Main" section */
+/* Blocks 63 to 98 style the 3 company service sections inside "Main" element */
 /* Used a single new class for all sections inside main*/
 
 main {
@@ -66,6 +66,7 @@ main {
   margin-left: 20px;
 }
 
+/*This block styles the containers */
 .company-services {
   margin-bottom: 20px;
   padding: 50px;
@@ -75,16 +76,18 @@ main {
   color: #ffffff;
 }
 
+/*This block resizes the 3 images*/
 section.company-services img {
   max-height: 200px;
 }
 
-/* Reordered declaration block to match html */
+/* This block styles the title for company services */
 .company-services h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
+/* Float left and float right apply to the company services blocks*/
 .float-left {
   float: left;
   margin-right: 25px;
@@ -95,8 +98,8 @@ section.company-services img {
   margin-left: 25px;
 }
 
-/*Sidebar*/
-/*Used a single new class for all sections inside aside */
+/*lines 103 to 128 style the Sidebar and its 3 blocks inside*/
+/*Used a single new class applied for all sections inside aside */
 aside {
   margin-right: 20px;
   padding: 20px;
@@ -124,7 +127,7 @@ aside {
   max-width: 150px;
 }
 
-/* Fixed the selector for the footer element*/
+/* This block styles the footer element*/
 footer {
   padding: 30px;
   clear: both;
@@ -133,7 +136,7 @@ footer {
   text-align: center;
 }
 
-/*Fixed the heading selector*/
+/*Fixed the heading selector on footer*/
 footer h4 {
   font-size: 20px;
 }
